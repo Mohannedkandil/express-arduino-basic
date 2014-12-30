@@ -4,14 +4,7 @@ Basic configuration for a simple express application connecting to an arduino th
 
 ##Node Setup
 
-Install the johnny-five module globally
-
-> `npm install -g johnny-five`
-
-To use the johnny-five module with the arduino board, you need to upload specific firmata to the board. More information and initial setup for the Johnny Five module can be found at:
-[https://github.com/rwaldron/johnny-five](https://github.com/rwaldron/johnny-five)
-
-When johnny-five is working properly, install the required modules
+Install the required modules:
 
 > `npm install`
 
@@ -34,7 +27,7 @@ When johnny-five is working properly, install the required modules
 
 ##Starting The Application
 
-With the arduino board wired and connected via usb, start the express server
+With the arduino board wired and connected via usb, start the express server:
 
 > `node index.js`
 
@@ -71,8 +64,8 @@ Included in the main.js file are two AJAX helper functions, one for POST and one
 
 **CSS**
 
-There is a starter CSS stylesheet that is currently styling the on/off buttons located at /public/css/style.css
+There is a starter CSS stylesheet that is currently styling the on/off buttons located at /public/css/style.css.
 
 **Images**
 
-Included is a sample favicon and directory for including images at /public/img
+Included is a sample favicon and directory for including images at /public/img.
