@@ -8,6 +8,9 @@ Install the required modules:
 
 > `npm install`
 
+To use the johnny-five module with the arduino board, you need to upload specific firmata to the board. More information and initial setup for the Johnny Five module can be found at:
+[https://github.com/rwaldron/johnny-five](https://github.com/rwaldron/johnny-five)
+
 ####Express Modules
 
 * Express 4
